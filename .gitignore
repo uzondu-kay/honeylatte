@@ -1,0 +1,9 @@
+.DS_Store
+website-screenshot.png
+.vercel
+node_modules
+dist
+build
+.env
+.env.*
+!.env.example
