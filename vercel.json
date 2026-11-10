@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/offline-collaboration-7f4m/:path*",
+      "source": "/collab/:path*",
       "headers": [
         {
           "key": "X-Robots-Tag",

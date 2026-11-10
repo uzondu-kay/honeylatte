@@ -28,11 +28,13 @@ When prompted, use the current directory as the project root and choose the defa
 
 ## Unlisted collaboration page
 
-The direct-only collaboration deck is available at:
+The direct-only collaboration deck is intended to be available at:
 
-`/offline-collaboration-7f4m/`
+`/collab/`
 
 It is intentionally absent from the main page, footer and sitemap, and uses both a `noindex` meta tag and Vercel `X-Robots-Tag` headers. It is unlisted, not password-protected: anyone with the URL can view it.
+
+Once the custom domain is connected in Vercel, the intended URL is `https://madebyhalf.com/collab`. Static hosting may also serve the same route on any other domain attached to the Vercel project; restricting it to one host would require an access-control or host-checking layer.
 
 The page loads Vercel Web Analytics only after the visitor actively allows analytics cookies. Enable Web Analytics for the Vercel project to see page visits and traffic for the private route in the Vercel dashboard.
 
