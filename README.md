@@ -2,7 +2,7 @@
 
 Static one-page site for Honey And Latte Films.
 
-## Local preview
+## Local preview yes
 
 ```sh
 python3 -m http.server 4173
